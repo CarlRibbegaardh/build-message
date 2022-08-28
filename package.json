@@ -1,0 +1,32 @@
+{
+  "name": "build-message",
+  "version": "1.0.0",
+  "description": "Build message banner, intended for information messages during multi stage builds.",
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "build-message": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlRibbegaardh/build-message.git"
+  },
+  "keywords": [
+    "console",
+    "build",
+    "message",
+    "info",
+    "log",
+    "cli"
+  ],
+  "author": "Carl Ribbegårdh <carl.ribbegaardh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlRibbegaardh/build-message/issues"
+  },
+  "homepage": "https://github.com/CarlRibbegaardh/build-message#readme",
+  "dependencies": {
+    "commander": "~9.4.0"
+  }
+}
